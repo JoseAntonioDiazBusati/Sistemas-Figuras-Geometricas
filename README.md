@@ -1,14 +1,14 @@
-## Sistemas de figuras geométricas
+# Sistemas de figuras geométricas
 Crea una clase abstracta Figura que tenga métodos abstractos para area() y perimetro(). Implementa subclases concretas como Circulo, Rectangulo, y Triangulo, proporcionando la implementación específica de estos métodos. La clase Figura podría tener propiedades comunes como el color, que se inicializarán a través del constructor.
 
 El valor de PI lo conseguimos con Math.PI
 
-# Objetivos:
+## Objetivos:
 
 * Practicar la creación de clases abstractas y métodos abstractos.
 * Entender cómo las subclases proporcionan implementaciones concretas de métodos abstractos.
 * Familiarizarse con los conceptos básicos de geometría y cómo se pueden aplicar en la programación orientada a objetos.
-# Ejercicio 2: Sistema de Empleados y Departamentos
+## Ejercicio 2: Sistema de Empleados y Departamentos
 Diseña una clase abstracta Empleado con propiedades como nombre, id, y un método abstracto calculaSalario(). Crea clases derivadas como EmpleadoPorHora y EmpleadoFijo, que implementen el método calculaSalario() de diferentes maneras. Considera añadir una clase Departamento que tenga una lista de empleados y pueda calcular el salario total que se debe pagar a todos sus empleados.
 
 EmpleadoPorHora podría implementar dos propiedades cómo horasTrabajadas al mes y tarifaPorHora para realizar el cálculo de su salario mensual. EmpleadoFijo podría tener a su vez dos propiedades distintas, salarioFijo y numPagas del que podríamos calcular su salario mensual.
@@ -24,7 +24,7 @@ Objetivos:
 Aprender a manejar la herencia y la implementación de métodos abstractos.
 Comprender cómo diferentes subclases pueden tener implementaciones distintas de la misma operación (polimorfismo).
 Entender cómo agrupar múltiples objetos en una colección y realizar operaciones sobre ellos.
-# Ejercicio 3: Sistema de Dispositivos Electrónicos¶
+## Ejercicio 3: Sistema de Dispositivos Electrónicos
 Crea tres interfaces:
 
 EncendidoApagado con métodos como encender() y apagar().
